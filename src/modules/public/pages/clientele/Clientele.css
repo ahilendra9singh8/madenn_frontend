@@ -1,0 +1,174 @@
+.clientele-banner {
+  min-height: 320px;
+  background:
+    linear-gradient(rgba(8, 30, 48, 0.78), rgba(8, 30, 48, 0.78)),
+    url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab")
+      center/cover no-repeat;
+}
+
+.clientele-banner-overlay {
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.clientele-banner .container {
+  width: 100%;
+}
+
+.clientele-banner span {
+  color: #e3b34f;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.clientele-banner h1 {
+  font-size: clamp(34px, 5vw, 52px);
+  margin: 12px 0;
+}
+
+.clientele-banner p {
+  max-width: 600px;
+  color: #e0e6eb;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.clientele-section {
+  padding: 75px 0;
+  background: #fff;
+}
+
+.clientele-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 38px;
+}
+
+.section-eyebrow {
+  color: #bd8a2e;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.clientele-heading h2 {
+  color: #153653;
+  font-size: clamp(28px, 4vw, 38px);
+  margin: 12px 0;
+}
+
+.clientele-heading p {
+  color: #687583;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.clientele-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 35px;
+}
+
+.clientele-search {
+  width: 100%;
+  max-width: 450px;
+  height: 48px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dce3e9;
+  border-radius: 6px;
+  color: #74808b;
+}
+
+.clientele-search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #25394a;
+  font-size: 14px;
+}
+
+.clientele-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.clientele-filters button {
+  padding: 10px 17px;
+  border: 1px solid #dce3e9;
+  border-radius: 4px;
+  background: #fff;
+  color: #425466;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.clientele-filters button:hover,
+.clientele-filters button.active {
+  background: #153653;
+  color: #fff;
+  border-color: #153653;
+}
+
+.clientele-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.clientele-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 50px 15px;
+  color: #687583;
+}
+
+.clientele-empty h3 {
+  color: #153653;
+}
+
+@media (max-width: 992px) {
+  .clientele-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .clientele-section {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .clientele-banner,
+  .clientele-banner-overlay {
+    min-height: 260px;
+  }
+
+  .clientele-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clientele-section {
+    padding: 45px 0;
+  }
+
+  .clientele-filters {
+    justify-content: flex-start;
+  }
+
+  .clientele-filters button {
+    padding: 9px 12px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,317 @@
+.business-details-banner {
+  min-height: 390px;
+  background-position: center;
+  background-size: cover;
+}
+
+.business-details-banner-overlay {
+  min-height: 390px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 24, 42, 0.93),
+    rgba(8, 24, 42, 0.35)
+  );
+  color: #fff;
+}
+
+.business-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 35px;
+  color: #dce3ec;
+  font-size: 13px;
+}
+
+.business-breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.business-breadcrumb a:hover {
+  color: #f5a623;
+}
+
+.business-breadcrumb span {
+  color: #f5a623;
+}
+
+.business-banner-label {
+  color: #f5a623;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.business-details-banner h1 {
+  font-size: clamp(34px, 5vw, 54px);
+  margin: 14px 0;
+}
+
+.business-details-banner p {
+  max-width: 650px;
+  color: #e5eaf0;
+  line-height: 1.8;
+}
+
+.business-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 55px;
+}
+
+.business-overview-content h2,
+.business-capabilities-grid h2 {
+  color: #172b43;
+  font-size: 36px;
+  margin: 14px 0 20px;
+}
+
+.business-overview-content p,
+.business-capabilities-grid > div:first-child p {
+  color: #667085;
+  line-height: 1.9;
+}
+
+.business-overview-image img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.business-enquiry-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #e9a12b;
+  color: #172b43;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 14px 22px;
+  border-radius: 4px;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+
+.business-enquiry-button:hover {
+  background: #172b43;
+  color: #fff;
+}
+
+.business-services {
+  background: #f5f7fa;
+}
+
+.business-service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  max-width: 950px;
+  margin: auto;
+}
+
+.business-service-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+  color: #344054;
+  font-size: 15px;
+}
+
+.business-service-item svg,
+.business-capability-item svg {
+  flex-shrink: 0;
+  color: #e9a12b;
+}
+
+.business-capabilities-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.business-capability-list {
+  display: grid;
+  gap: 16px;
+}
+
+.business-capability-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 17px;
+  background: #f5f7fa;
+  border-radius: 5px;
+  color: #344054;
+}
+
+.business-benefits {
+  background: #f5f7fa;
+}
+
+.business-benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.business-benefit-card {
+  background: #fff;
+  padding: 28px 22px;
+  border-bottom: 3px solid #e9a12b;
+  border-radius: 6px;
+}
+
+.business-benefit-card span {
+  color: #e9a12b;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.business-benefit-card h3 {
+  color: #172b43;
+  font-size: 17px;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.related-business-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.related-business-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #e8edf2;
+  border-radius: 7px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.related-business-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.related-business-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.related-business-card > div {
+  padding: 20px;
+}
+
+.related-business-card h3 {
+  color: #172b43;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.related-business-card span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #d99118;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.all-businesses-link {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.all-businesses-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #172b43;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.all-businesses-link a:hover {
+  color: #d99118;
+}
+
+.business-not-found {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.business-not-found h2 {
+  color: #172b43;
+  margin-bottom: 15px;
+}
+
+.business-not-found p {
+  color: #667085;
+  margin-bottom: 25px;
+}
+
+.business-not-found a {
+  display: inline-block;
+  background: #e9a12b;
+  color: #172b43;
+  text-decoration: none;
+  padding: 13px 22px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .business-benefit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .business-overview-grid,
+  .business-capabilities-grid {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .business-details-banner,
+  .business-details-banner-overlay {
+    min-height: 320px;
+  }
+
+  .business-overview-grid,
+  .business-capabilities-grid,
+  .business-service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .business-overview-image img {
+    height: 280px;
+  }
+
+  .business-overview-content h2,
+  .business-capabilities-grid h2 {
+    font-size: 28px;
+  }
+
+  .business-benefit-grid,
+  .related-business-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .related-business-card img {
+    height: 210px;
+  }
+}

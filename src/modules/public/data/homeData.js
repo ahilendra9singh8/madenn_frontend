@@ -45,3 +45,35 @@ const heroSlides = [
 ];
 
 export default heroSlides;
+
+
+export const homeStatistics = [
+  {
+    id: 1,
+    title: "Total Projects",
+    value: "50+",
+    description: "Infrastructure Projects",
+    icon: "building-2",
+  },
+  {
+    id: 2,
+    title: "Completed Projects",
+    value: "35+",
+    description: "Successfully Delivered",
+    icon: "check-circle",
+  },
+  {
+    id: 3,
+    title: "Years of Experience",
+    value: "10+",
+    description: "Engineering Excellence",
+    icon: "calendar-days",
+  },
+  {
+    id: 4,
+    title: "States Covered",
+    value: "08+",
+    description: "Across India",
+    icon: "map-pinned",
+  },
+];

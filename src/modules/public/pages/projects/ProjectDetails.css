@@ -1,0 +1,271 @@
+.project-details-banner {
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-details-banner-overlay {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 24, 42, 0.94),
+    rgba(8, 24, 42, 0.35)
+  );
+  color: #fff;
+}
+
+.project-details-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #e5eaf0;
+}
+
+.project-details-breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-details-breadcrumb span,
+.project-details-category {
+  color: #f5a623;
+}
+
+.project-details-category {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.project-details-banner h1 {
+  font-size: clamp(34px, 5vw, 52px);
+  margin: 14px 0;
+}
+
+.project-details-banner p {
+  max-width: 650px;
+  color: #e5eaf0;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.project-information {
+  background: #f5f7fa;
+}
+
+.project-information-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-information-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 25px;
+  background: #fff;
+  border-radius: 7px;
+}
+
+.project-information-item > svg {
+  color: #e9a12b;
+  flex-shrink: 0;
+}
+
+.project-information-item span {
+  color: #667085;
+  font-size: 13px;
+}
+
+.project-information-item h3 {
+  color: #172b43;
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.project-overview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.project-overview-grid h2 {
+  color: #172b43;
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.project-overview-grid p {
+  color: #667085;
+  line-height: 1.9;
+}
+
+.project-overview-image img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-scope,
+.project-highlights {
+  background: #f5f7fa;
+}
+
+.project-scope-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  max-width: 950px;
+  margin: auto;
+}
+
+.project-scope-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  color: #344054;
+}
+
+.project-scope-item svg {
+  color: #e9a12b;
+  flex-shrink: 0;
+}
+
+.project-highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.project-highlight-card {
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #e8edf2;
+  border-bottom: 3px solid #e9a12b;
+  border-radius: 7px;
+}
+
+.project-highlight-card span {
+  color: #e9a12b;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.project-highlight-card h3 {
+  color: #172b43;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.project-gallery {
+  background: #fff;
+}
+
+.project-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-gallery-image {
+  height: 240px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.project-gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.project-gallery-image:hover img {
+  transform: scale(1.06);
+}
+
+.project-back-section {
+  padding: 30px 0;
+  background: #f5f7fa;
+}
+
+.project-back-section a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #172b43;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.project-back-section a:hover {
+  color: #d99118;
+}
+
+.project-not-found {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.project-not-found h2 {
+  color: #172b43;
+  margin-bottom: 15px;
+}
+
+.project-not-found p {
+  color: #667085;
+  margin-bottom: 20px;
+}
+
+.project-not-found a {
+  color: #172b43;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .project-information-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-highlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .project-overview-grid,
+  .project-scope-grid,
+  .project-highlight-grid,
+  .project-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-overview-grid h2 {
+    font-size: 28px;
+  }
+
+  .project-overview-image img {
+    height: 270px;
+  }
+
+  .project-gallery-image {
+    height: 220px;
+  }
+
+  .project-details-banner,
+  .project-details-banner-overlay {
+    min-height: 350px;
+  }
+}

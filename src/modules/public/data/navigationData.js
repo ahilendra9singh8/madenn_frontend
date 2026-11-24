@@ -51,7 +51,15 @@ const navigationData = [
   },
   {
     title: "Contact Us",
-    path: "/contact-us",
+    path: "/contact",
+  },
+  {
+    title: "Corporate Brochure",
+    path: "/brochure",
+  },
+  {
+    title: "Login",
+    path: "/login",
   },
 ];
 
