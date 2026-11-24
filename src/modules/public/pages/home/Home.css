@@ -1,0 +1,38 @@
+/* .home-placeholder {
+  min-height: 550px;
+  background: #181818;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+}
+
+.home-placeholder-content {
+  max-width: 850px;
+}
+
+.home-placeholder-content span {
+  color: #c89b48;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.home-placeholder-content h1 {
+  color: #ffffff;
+  font-size: clamp(36px, 6vw, 76px);
+  line-height: 1.15;
+  margin: 25px 0;
+}
+
+.home-placeholder-content p {
+  color: #bbbbbb;
+  font-size: clamp(14px, 2vw, 18px);
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+@media (max-width: 600px) {
+  .home-placeholder {
+    min-height: 450px;
+    padding: 40px 6%;
+  }
+} */

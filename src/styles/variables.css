@@ -1,0 +1,30 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #101010;
+  --color-secondary: #1b1b1b;
+  --color-accent: #c89b48;
+  --color-accent-light: #e2bb70;
+
+  /* Text Colors */
+  --color-white: #ffffff;
+  --color-text: #cccccc;
+  --color-muted: #999999;
+
+  /* Background */
+  --color-background: #101010;
+  --color-surface: #1b1b1b;
+
+  /* Typography */
+  --font-primary: Arial, sans-serif;
+  --font-heading: Georgia, serif;
+
+  /* Layout */
+  --container-width: 1440px;
+  --header-height: 80px;
+
+  /* Transitions */
+  --transition-default: all 0.3s ease;
+
+  /* Border */
+  --border-color: rgba(255, 255, 255, 0.12);
+}
